@@ -1,13 +1,13 @@
-# API Rest Node.js | TypeScript | TypeORM
+# API Rest JWT | Node.js | TypeScript | TypeORM
 
 ## Clonar Repositório
 ```
-git clone https://github.com/Arturstriker3/API-Node.js-TypeScript-TypeORM
+git clone github.com/Arturstriker3/API-JWT-Node.js-TypeScript-TypeORM
 ```
 
 ## Abrir o repositório
 ```
-cd .\API-Node.js-TypeScript-TypeORM\ 
+cd .\API-JWT-Node.js-TypeScript-TypeORM\ 
 ```
 
 ## Instalação do Projeto
@@ -20,9 +20,9 @@ npm install
 npm run dev
 ```
 
-### API Rest Node.js | TypeScript | TypeORM
+### API Rest JWT | Node.js | TypeScript | TypeORM
  
- Nesse projeto o foco foi desenvolver uma API no padrão Rest que permite a comunicação com um banco PostgreSQL qualquer.
+ Nesse projeto o foco foi desenvolver uma API no padrão Rest que permite a comunicação com um banco PostgreSQL qualquer autenticação de segurança JWT.
 
  **Modelo Relacional do Banco**
 <div align="center">
