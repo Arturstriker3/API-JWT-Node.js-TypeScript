@@ -1,13 +1,14 @@
 import { Router } from "express";
-import { Request, Response } from 'express';
-import { SubjectController } from "./controllers/SubjectController";
-import { RoomController } from "./controllers/RoomController";
+import { UserController } from "./controllers/UserController"
+import { authMiddleware } from "./middlewares/authMiddleware";
 
 const routes = Router();
 
-routes.post('/subject', new SubjectController().create)
-routes.post('/room', new RoomController().create)
-routes.post('/room/:idRoom/create', new RoomController().createVideo)
-routes.post('/room/:idRoom/subject', new RoomController().roomSubject)
+routes.post('/user', new  UserController().create);
+routes.post('/login', new  UserController().login);
+
+routes.use(authMiddleware);
+
+routes.get('/profile', new  UserController().getProfile);
 
 export default routes;

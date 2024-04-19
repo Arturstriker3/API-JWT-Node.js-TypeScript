@@ -10,3 +10,6 @@ DB_NAME
 
 Porta da Api
 PORT
+
+Senha de Assinatura JWT da Api
+JWT_SECRET
