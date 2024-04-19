@@ -8,5 +8,5 @@ DB_USER
 DB_PASS
 DB_NAME
 
-Rota da Api
+Porta da Api
 PORT
